@@ -1,0 +1,12 @@
+package com.example.demo.topic;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController("/topics")
+public class TopicController {
+	public String getAllTopics() {
+		return "All Topics";
+
+	}
+
+}

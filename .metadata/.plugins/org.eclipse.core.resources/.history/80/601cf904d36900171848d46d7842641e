@@ -1,0 +1,11 @@
+package com.springboot.rest;
+
+import org.springframework.boot.SpringApplication;
+
+public class SpringBootWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootWebApplication.class, args);
+	}
+
+}

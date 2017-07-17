@@ -1,0 +1,10 @@
+package com.example.demo.topic;
+
+@RestController
+public class TopicController {
+	public String getAllTopics() {
+		return "All Topics";
+
+	}
+
+}
